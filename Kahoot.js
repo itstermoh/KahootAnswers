@@ -36,7 +36,7 @@ const getQuizData = (uuid) => {
 };
 
 // example to run this ass
-getQuizData("a1311b79-30f2-4815-86f4-7f75c23de52c").then(data => {
+getQuizData("uuid right here").then(data => {
     data.entities.forEach(question => {
         console.log(question);
     });
