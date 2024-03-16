@@ -9,7 +9,7 @@ import org.json.JSONObject;
 public class Kahoot {
 
     public static void main(String[] args) {
-        String uuid = "a1311b79-30f2-4815-86f4-7f75c23de52c";
+        String uuid = "uuid here";
         try {
             JSONObject responseData = getQuizData(uuid);
             JSONArray entities = responseData.getJSONArray("entities");
